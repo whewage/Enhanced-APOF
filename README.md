@@ -1,9 +1,7 @@
 # Privacy Preserving Data Stream Perturbation
 
-This repository contains experimentation with combinations of random
-projection, translation, and additive noise as a method for performing
-privacy-preserving data stream mining (tested against known
-input-output attacks) in an online learning context.
+This repository contains a Accuracy Privacy Optimizaion Framework (APOF) for data stream mining environment.
+This framework has three main modules, Accuracy, Privacy and Data Fitting.
 
 ## Quickstart
 
@@ -14,8 +12,13 @@ Jupyter notebooks (This has only been tested on an Ubuntu 16.04 host
 running Docker 17.05.0-ce).
 
 You will need to run the notebooks in the "dataset-construction"
-sub-folder before the notebooks that depend on those datasets. Note
-that the results of each experiment are saved to disk to prevent the
+sub-folder to create the datasets. Then dataset will be created and stored in the Dataset folder.
+
+After that you can run jupyter source files for each dataset in "notebooks folder". Your results will be saved to sub-folders with dataset names under "workspace" folder.
+
+Source codes are located in "src" folder.
+
+Note that the results of each experiment are saved to disk to prevent the
 need to re-execute the experiments when re-viewing an experiment's
 results.
 
